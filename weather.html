@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Zany Designs Weather App</title>
+    <meta name="description" content="Zany Designs Weather App">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/weather.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="container text-center">
+        <div id="output">
+            <h1>Zany Designs Weather App Demo</h1>
+        </div>
+        <div class="row">
+            <div id="temperature">
+                <div id="icon"></div>
+                <div id="temp"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <div class="col-sm-4">
+                    <div id="city"></div>
+                </div>
+                <div class="col-sm-4">
+                    <div id="condition"></div>
+                </div>
+                <div class="col-sm-4">
+                    <div id="time"></div>
+                </div>
+            </div>
+            <div id="change-degree" class="row">
+                <button id="far" class="btn btn-lg btn-danger">Fahrenheit</button>
+                <button id="cel" class="btn btn-lg btn-primary">Celsius</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://momentjs.com/downloads/moment.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+
+</html>
