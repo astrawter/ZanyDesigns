@@ -1,0 +1,26 @@
+body {
+  background: #dcd; }
+
+h1 {
+  font-size: 4em; }
+
+#temperature > div {
+  display: inline; }
+
+#icon img {
+  width: 100px; }
+
+#temperature,
+#city,
+#condition,
+#time {
+  font-size: 2em;
+  text-transform: uppercase; }
+
+#change-degree {
+  margin: 3%; }
+
+button {
+  margin-right: 5%; }
+
+/*# sourceMappingURL=weather.css.map */
