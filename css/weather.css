@@ -1,8 +1,11 @@
 body {
-  background: #dcd; }
+  margin-top: 70px;
+  background: #A6CFD5;
+  font: "Titillium Web", sans-serif; }
 
 h1 {
-  font-size: 4em; }
+  font-size: 4em;
+  font: "Amaranth", sans-serif; }
 
 #temperature > div {
   display: inline; }
@@ -22,5 +25,8 @@ h1 {
 
 button {
   margin-right: 5%; }
+
+.previous a {
+  margin-left: 1%; }
 
 /*# sourceMappingURL=weather.css.map */

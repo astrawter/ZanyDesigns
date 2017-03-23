@@ -1,8 +1,16 @@
-body 
-	background: #dcd
+$accentblue: #A6CFD5
+$darkblue: #397295
+$header-font: 'Amaranth', sans-serif
+$body-font: 'Titillium Web', sans-serif
+
+body
+	margin-top: 70px
+	background: $accentblue
+	font: $body-font
 
 h1 
 	font-size: 4em
+	font: $header-font
 
 #temperature > div 
 	display: inline
@@ -25,3 +33,7 @@ h1
 
 button 
 	margin-right: 5%
+
+.previous
+	a
+		margin-left: 1%
