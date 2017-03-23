@@ -1,11 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Amaranth:400,700|Titillium+Web:400,700");
+html {
+  height: 100%;
+  box-sizing: border-box; }
+
 body {
-  margin-top: 70px;
+  position: relative;
   background: #A6CFD5;
-  font: "Titillium Web", sans-serif; }
+  font-family: "Titillium Web", sans-serif;
+  margin: 0;
+  padding-bottom: 70px;
+  min-height: 100%; }
 
 h1 {
   font-size: 4em;
-  font: "Amaranth", sans-serif; }
+  font-family: "Amaranth", sans-serif;
+  margin-top: 50px; }
 
 #temperature > div {
   display: inline; }

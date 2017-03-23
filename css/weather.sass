@@ -1,24 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth:400,700|Titillium+Web:400,700')
+
 $accentblue: #A6CFD5
 $darkblue: #397295
 $header-font: 'Amaranth', sans-serif
 $body-font: 'Titillium Web', sans-serif
 
+html
+	height: 100%
+	box-sizing: border-box
+
 body
-	margin-top: 70px
+	position: relative
 	background: $accentblue
-	font: $body-font
+	font-family: $body-font
+	margin: 0
+	padding-bottom: 70px
+	min-height: 100%
 
 h1 
 	font-size: 4em
-	font: $header-font
+	font-family: $header-font
+	margin-top: 50px
 
 #temperature > div 
 	display: inline
 
-
 #icon img 
 	width: 100px
-
 
 #temperature,
 #city,
@@ -26,7 +34,6 @@ h1
 #time 
 	font-size: 2em
 	text-transform: uppercase
-
 
 #change-degree 
 	margin: 3%

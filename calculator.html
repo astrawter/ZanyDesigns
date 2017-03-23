@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Zany Designs Calculator Demo">
+    <meta name="author" content="Alexandria Strawter">
+    <title>Zany Designs Calculator</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/calculator.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container text-center">
+        <div id="header">
+            <header>
+                <h1>Zany Designs</h1>
+                <h3>Electronic Calculator</h3>
+            </header>
+        </div>
+        <div id="calculator">
+            <div id="answer" class="form-control" disabled>
+            </div>
+            <div id="buttons">
+                <div class="row">
+                    <button class="btn btn-danger special" id="clearall">AC</button>
+                    <button class="btn btn-danger special" id="clear">CE</button>
+                    <button class="btn btn-info operators">%</button>
+                    <button class="btn btn-info operators">÷</button>
+                </div>
+                <div class="row">
+                    <button class="btn btn-default numbers">7</button>
+                    <button class="btn btn-default numbers">8</button>
+                    <button class="btn btn-default numbers">9</button>
+                    <button class="btn btn-info operators">x</button>
+                </div>
+                <div class="row">
+                    <button class="btn btn-default numbers">4</button>
+                    <button class="btn btn-default numbers">5</button>
+                    <button class="btn btn-default numbers">6</button>
+                    <button class="btn btn-info operators">-</button>
+                </div>
+                <div class="row">
+                    <button class="btn btn-default numbers">1</button>
+                    <button class="btn btn-default numbers">2</button>
+                    <button class="btn btn-default numbers">3</button>
+                    <button class="btn btn-info operators">+</button>
+                </div>
+                <div class="row">
+                    <button class="btn btn-default numbers">0</button>
+                    <button class="btn btn-success equals" id="double">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="navbar navbar-default navbar-bottom">
+        <ul class="pager">
+            <li class="previous"><a href="index.html"><span aria-hidden="true">&larr;</span> Go Back Home</a></li>
+        </ul>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/calculator.js"></script>
+</body>
+</html>
